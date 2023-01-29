@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    height: 770px;
+    border: 1px solid #F9F9F7;
+    background-color: #F9F9F7;
+    margin-top: 33px;
+    margin-left: 473px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.span {
+    width: 200px;
+    height: 200px;
+    font-size: 95px;
+}
+
+.container .lauren span {
+    font-size: 25px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    margin-top: 315px;
+    color: #706c6c;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+.container span {
+    font-size: 16px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+    color: #706c6c;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.container .friday {
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 7px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    color: #706c6c;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.container .clock {
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 6px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    color: #706c6c;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+
+.container .winchester {
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin-top: 20px;
+    line-height: 6px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    color: #706c6c;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+
+.container .reseption {
+    letter-spacing: 2px;
+    font-size: 24px;
+    margin-top: 29px;
+    line-height: 6px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    color: #706c6c;
+    font-family: 'Tangerine', cursive;
+}

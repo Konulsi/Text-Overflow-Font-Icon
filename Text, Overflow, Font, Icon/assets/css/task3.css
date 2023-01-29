@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(../img/header-background\ \(1\).jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 807px;
+}
+
+.container .navbar {
+    padding-left: 376px;
+    padding-right: 396px;
+}
+
+
+.container .navbar ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 3px 4px 7px rgb(173 148 66 / 80%);
+}
+
+.container .navbar ul li {
+    list-style: none;
+}
+
+.container .navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.container .navbar ul li .home {
+    color: #ef9d08;
+}
+
+.container .doe {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.container .p {
+    margin-left: 392px;
+    line-height: 36px;
+    width: 720px;
+    height: 103px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 21px;
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff78;
+    text-shadow: 1px 1px 6px rgb(221 217 207 / 80%);
+}
+
+.border {
+    margin-left: 451px;
+    border: 1px solid #ffffff14;
+    width: 600px;
+}
+
+.container .icons {
+    width: 400px;
+    margin-left: 560px;
+}
+
+.container .icons ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.container .icons ul li {
+    list-style: none;
+    color: white;
+}
+
+.container .icons ul li a {
+    text-decoration: none;
+    color: white;
+
+}

@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1515px;
+    height: 980px;
+    background-color: #252B42;
+}
+
+.contain {
+    width: 1215px;
+    height: 780px;
+    background-color: #252B42;
+}
+
+.container .header {
+    margin-left: 45px;
+    width: 1260px;
+    height: 150px;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.container .header .brand {
+    margin-right: 85px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.container .header .navbar {
+    width: 344px;
+    margin-right: 218px;
+    font-family: 'Nunito', sans-serif;
+    padding-left: -26px;
+    padding-right: 16px;
+    padding: 10px;
+}
+
+.container .header .navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .header .navbar ul li {
+    list-style: none;
+}
+
+.container .header .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.container .login-join {
+    display: flex;
+    justify-content: space-around;
+    width: 251px;
+    height: 80px;
+}
+
+.container .login-join a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container .login-join .login {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    width: 70px;
+    height: 50px;
+    padding: 9px;
+    margin-left: 30px;
+}
+
+.container .login-join .join-us {
+    background-color: #23A6F0;
+    border: 1px solid #23A6F0;
+    border-radius: 4px;
+    width: 115px;
+    height: 40px;
+    padding: 9px;
+}
+
+.container .login-join .join-us a i {
+    font-weight: 600;
+    margin-left: 7px;
+    font-size: 14px;
+}
+
+.container .welcome {
+    text-align: center;
+    font-size: 18px;
+    color: #23A6F0;
+    margin-top: 50px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container .h1 {
+    width: 500px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 27px;
+    margin-left: 502px;
+    margin-top: 30px;
+}
+
+.container .p {
+    width: 467px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 519px;
+    margin-top: 30px;
+}
+
+.container .get-learn {
+    margin-left: 601px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 302px;
+    height: 80px;
+}
+
+.container .get-learn a {
+    text-decoration: none;
+    color: white;
+}
+
+.container .get-learn .a {
+    color: #23A6F0;
+}
+
+.container .get-learn .get {
+    width: 160px;
+    height: 40px;
+    background-color: #23A6F0;
+    border-radius: 4px;
+    padding: 9px;
+    padding-left: 30px;
+}
+
+.container .get-learn .learn {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #23A6F0;
+    border-radius: 4px;
+    padding: 7px;
+    padding-left: 20px;
+}
+
+.container .box {
+    margin-top: 50px;
+    margin-left: 320px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 870px;
+    height: 500px;
+}
+
+.container .box a {
+    text-decoration: none;
+}
+
+.container .box .first {
+    width: 270px;
+    height: 270px;
+    background-color: white;
+}
+
+.container .box .first a i {
+    width: 65px;
+    height: 70px;
+    padding: 20px;
+    font-size: 26px;
+    border-radius: 10px;
+    margin: 29px;
+    margin-right: 170px;
+    background-color: #FFDCD1;
+    color: #fe3c00c4;
+}
+
+.container .box .second {
+    width: 270px;
+    height: 270px;
+    background-color: white;
+}
+
+.container .box .second a i {
+    width: 65px;
+    height: 70px;
+    padding: 20px;
+    font-size: 26px;
+    border-radius: 10px;
+    margin: 29px;
+    margin-right: 170px;
+    background-color: #B9EAA9;
+    color: #00d042;
+}
+
+.container .box .third {
+    width: 270px;
+    height: 270px;
+    background-color: #23A6F0;
+}
+
+.container .box .third a i {
+    width: 65px;
+    height: 70px;
+    padding: 20px;
+    padding-left: 18px;
+    font-size: 26px;
+    border-radius: 10px;
+    margin: 29px;
+    margin-right: 170px;
+    background-color: white;
+    color: #23A6F0;
+}
+
+.container .box .first .span1 {
+    margin-right: 95px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container .box .second .span2 {
+    margin-right: 70px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container .box .third .span3 {
+    color: white;
+    margin-right: 95px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.border-red1 {
+    border: 1px solid red;
+    width: 39px;
+    margin: 20px;
+    margin-left: 35px;
+}
+
+.border-red2 {
+    border: 1px solid red;
+    width: 44px;
+    margin: 20px;
+    margin-left: 33px;
+}
+
+.border-white {
+    border: 1px solid white;
+    width: 39px;
+    margin: 20px;
+    margin-left: 35px;
+}
+
+.container .box .p1 {
+    width: 200px;
+    height: 100px;
+    text-align: left;
+    margin-left: 33px;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif;
+    color: #716d6de0;
+}
